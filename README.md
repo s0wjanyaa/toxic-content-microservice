@@ -102,16 +102,3 @@ Get the current model and API version.
 4. You can also test the `/health` and `/version` endpoints with `GET` requests.
 
 
-
-## Configuration
-
-- **Thresholds and enabled categories** can be set in `config.json`.
-- Example:
-    ```json
-    {
-      "toxicity_threshold": 0.75,
-      "flag_threshold": 0.5
-    }
-    ```
-
-
