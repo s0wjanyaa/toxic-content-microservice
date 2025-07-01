@@ -10,7 +10,31 @@ This repository hosts the Toxicity & Abuse Detection Microservice, an AI-powered
 - **Dockerized:** Simple deployment anywhere.
 - **Language detection:** Flags non-English text as "abusive".
 
+## 📁 Project Structure
 
+```plaintext
+TOXICITY_API/
+│
+├── app/
+│   ├── main.py                         
+│   └── classifier.py                    
+│
+├── models/
+│   ├── tfidf_vectorizer.pkl            
+│   └── toxic_classifier.pkl             
+│
+├── notebooks/
+│   └── toxicity_microservice_lr.ipynb   
+│
+├── tests/
+│   └── test_suite.py                    
+│
+├── .gitignore                           
+├── config.json                          
+├── Dockerfile                           
+├── README.md                            
+├── requirements.txt                     
+```
 ## Getting Started
 
 ### 1. Clone the Repository
